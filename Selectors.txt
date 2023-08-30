@@ -1,0 +1,37 @@
+CSS SELECTOR: is a pattern used to select and target specific HTML elements on a web page. it allows you to apply styles or perform actions
+actions on those selected elements. css selector are powerful tools that enable you to control the appearance and behaviour
+of web pages.
+e.g
+h1{
+color:blue;
+}
+The selector is h1 which target all <h1> elements in the HTML document. the style rule color:blue;
+ PRATICAL APPLICATION OF CSS SELECTORS
+Styling: you can use selectors to apply specific styles to certain elements. For example,
+you can target all links (<a> elements and change their color or add hover effects.
+
+a{ 
+color: green;
+}
+a:hover{
+text-decoration:none;
+}
+
+2. Responsive Design: Css selectors play a crucial role in creating responsive web designs. by using media queries
+and selectors, you can apply different styles based on the screen size or device type. this allows you to optimize the layout
+and appearance of your website for different devices.
+example
+@media screen and (max-width: 800px)
+h1{
+font-family: sans-sarif;
+}
+3.Javascript Manipulation: Css selectors are often used in conjuction with javascript libraries like jQuery make it easier to select
+elements using Css-like syntax and perform actions such as showing or hiding elements adding or removing classes
+or changing element content.
+example:
+<button id="myButton">click me</button>
+
+IMPORTANCE OF CSS SELECTORS
+It make you work look presentable
+Responsive web designs
+ 
